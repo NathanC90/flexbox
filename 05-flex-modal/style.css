@@ -26,6 +26,7 @@ body {
 .container {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 
@@ -40,7 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .header {
@@ -61,7 +62,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 button {
