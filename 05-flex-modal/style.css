@@ -39,6 +39,12 @@ body {
   margin: 8px;
 }
 
+.header {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
