@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+* {
+    border: 5px solid red; /* For debugging */
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
