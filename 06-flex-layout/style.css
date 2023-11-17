@@ -33,8 +33,19 @@ ul li {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 ul {
     padding: 0;
+}
+
+.left-links {
+    display: flex;
+    gap: 15px;
+}
+
+.right-links {
+    display: flex;
+    gap: 15px;
 }
