@@ -29,3 +29,12 @@ input {
 ul li {
     list-style: none;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+}
