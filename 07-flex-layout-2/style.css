@@ -29,17 +29,23 @@ body {
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
+    flex: 0 0 auto;
   }
 
   ul li {
     list-style: none;
-    margin: 10px 0;
+    padding: 16px;
   }
 
   a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
+  }
+
+  .card-container {
+    display: flex;
+    gap: 32px;
   }
   
   .card {
