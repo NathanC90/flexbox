@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
   
   .header {
@@ -26,13 +25,14 @@ body {
 
   .container {
     display: flex;
+    flex: 1;
   }
   
   .sidebar {
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
   }
 
   ul li {
@@ -48,17 +48,17 @@ body {
 
   .card-container {
     display: flex;
-    gap: 32px;
     padding: 32px;
     flex-wrap: wrap;
+    gap: 32px;
   }
   
   .card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
-    flex: 1;
-    padding: 32px;
+    width: 320px;
+    padding: 16px;
   }
 
   .footer {
