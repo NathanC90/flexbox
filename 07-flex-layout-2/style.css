@@ -20,11 +20,26 @@ body {
     background: #eee;
     color: darkmagenta;
   }
+
+  .container {
+    display: flex;
+  }
   
   .sidebar {
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
+  }
+
+  ul li {
+    list-style: none;
+    margin: 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
   }
   
   .card {
